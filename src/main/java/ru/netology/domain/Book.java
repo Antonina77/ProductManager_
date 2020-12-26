@@ -12,7 +12,7 @@ public class Book extends Product {
         super();
     }
 
-    public Book (int id,String name, double cost, String author) {
+    public Book(int id, String name, double cost, String author) {
         super(id, name, cost);
         this.author = author;
     }
